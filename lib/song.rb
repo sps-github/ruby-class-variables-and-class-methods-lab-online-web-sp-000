@@ -27,3 +27,7 @@ end
 def song.artists
   @@artists.uniq!
 end
+
+def song.genre_count
+  @@genre_count
+end
