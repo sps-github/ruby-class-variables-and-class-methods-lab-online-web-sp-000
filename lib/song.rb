@@ -10,21 +10,20 @@ def initialize(name, artist, genre)
   @@artists << artist
   @genre = genre
   @name = name
-  @artist = artist
-
+  @artist = artists
 end
 
 end
 
-def song.count
+def self.count
   @@count
 end
 
-def song.genres
+def self.genres
   @@genres.uniq!
 end
 
-def song.artists
+def self.artists
   @@artists.uniq!
 end
 
