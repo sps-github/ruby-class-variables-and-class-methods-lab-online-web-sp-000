@@ -31,3 +31,7 @@ end
 def song.genre_count
   @@genre_count
 end
+
+def song.artist_count
+  
+end
