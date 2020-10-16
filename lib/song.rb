@@ -8,6 +8,8 @@ def initialize(name, artist, genre)
   @@count += 1
   @@genres << genre
   @genre = genre
+  @name = name
+  @artist = artist
 
 end
 
