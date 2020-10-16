@@ -22,3 +22,7 @@ end
 def song.genres
   @@genres.uniq!
 end
+
+def song.artists
+  @@artists
+end
