@@ -16,5 +16,5 @@ def song.count
 end
 
 def song.genres
-  @@genres
+  @@genres.uniq!
 end
